@@ -24,8 +24,8 @@ nav{
     border: none;
     font-size: 18px;
     height: 45px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 
 }
 .banner{
@@ -34,6 +34,8 @@ nav{
     background-image: url(../images/background3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 600px;
+    
     
 
    
@@ -52,4 +54,45 @@ margin: 0px auto;
 }
 .head{
     font-weight: bold;
+
+}
+
+  .about{
+    height: 1300px;
+    width: 1300px;
+    background-color: lightcyan; 
+   
+    margin: 0 auto;
+    
+  }
+  .sub-section{
+   padding: 80px 97px 80px 97px;
+   gap: 30px;
+  }
+  .skill{
+    text-align: center;
+}
+.section-description{
+font-size: smaller;
+font-weight: 300;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.div{
+    display: flex;
+    padding: 30px 30px 30px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+main{
+    margin-top: 60px;
+}
+.about-items{
+   
 }
