@@ -93,6 +93,15 @@ font-weight: 300;
 main{
     margin-top: 60px;
 }
-.about-items{
+.sec-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn{
+    height: 40px;
+    width: 100px;
    
 }
+.pro{
+    display: flex;
+    justify-content: space-between;
