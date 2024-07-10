@@ -188,6 +188,8 @@ main{
     margin: 0 auto;
     height: 600px;
     width: 1300px;
+    background-color:whitesmoke;
+    margin-bottom: 30px;
 }
 #card .card-part{
     display: flex;
