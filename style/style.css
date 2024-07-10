@@ -26,6 +26,13 @@ nav{
     height: 45px;
     margin-top: 30px;
     margin-bottom: 20px;
+    
+
+}
+.btn-primary > a{
+text-decoration: none;
+color: white;
+
 
 }
 .banner{
@@ -135,8 +142,10 @@ main{
     background-image: url(../images/handshake.jpg);
     margin: 0 auto;
     width: 1300px;
-    height:600px;
+    height:500px;
     margin-bottom: 40px;
+    border: none;
+    border-radius: 5px;
     
     
 
@@ -219,4 +228,22 @@ main{
 .bt{
     border: none;
     background-color: none;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+#navigate .navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+#navigate{
+    margin: 0 auto;
+    width: 1300px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: papayawhip;
 }
